@@ -33,3 +33,9 @@ def kiem_tra_so_nguyen_to(so):
             break
         uoc += 1
     return output
+
+def chuoi_dao_nguoc(str):
+    reversed_str = ''
+    for c in str:
+        reversed_str = c + reversed_str
+    return reversed_str
